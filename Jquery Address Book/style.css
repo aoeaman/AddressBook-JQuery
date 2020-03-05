@@ -1,0 +1,283 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+#header {
+    margin: 0;
+    padding: 0;
+    height: 15%;
+    width: 100%;
+    background-color: deepskyblue;
+    font-family: 'Times New Roman', Times, serif;
+    display:flex;
+}
+
+#title {
+    font-size: 100px;
+    align-self:flex-end;
+    margin-left:1%;
+}
+
+#navbar {
+    background-color: black;
+    color: white;
+    display: flex;
+    height: 5%;
+    width: inherit;
+    font-weight: 600;
+    align-self: center;
+    position: relative;
+    display: flex;
+}
+
+.navbaritems {
+    align-self: center;
+    position: relative;
+    display: inline-block;
+    float:left;
+}
+
+a{
+    text-decoration:none;
+    color:inherit;
+    font-size:25px;
+}
+
+#Bing-Icon {
+    position: absolute;
+    right:0;
+    align-self:center;
+}
+
+#container{   
+    height:85%;
+    width:100%;
+    display:flex;
+}
+
+#d1 {
+    width: 100%;
+    height:15%;
+}
+
+#p1{
+    position:relative;
+    font-size:45px;
+    padding-left:10%;
+    font-weight:600;
+}
+
+#col-30 {
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-flow:column;
+    box-shadow:initial;
+}
+
+#col-70 {
+    height:100%;
+    float: left;
+    width:75%;
+}
+
+#contactpanel {
+    height: 50%;
+    width: 90%;
+    margin-left: 10%;
+    box-shadow: 0px 0px 0px 1px #0000007d;
+    max-height:100%;
+    overflow-y:auto;
+    overflow-x:hidden;
+}
+
+#contactpanel div:hover{
+    background-color: lightskyblue;
+    cursor:pointer;
+} 
+
+#add {
+    flex-flow: wrap;
+    height: 70%;
+    width: inherit;
+    margin-left: 5%;
+    margin-top: 8%;
+    display: none;
+    box-shadow: 0px 0px 10px 5px #0000007a;
+}
+
+#add div{
+    float:left;
+}
+
+#info{
+    display:none;
+    height:70%;
+    margin-top:11.5%;
+}
+
+#info div {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#info div table tr td{
+  float:left;
+}
+
+#homepage{
+    font-size:50px;
+    align-self:center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left:60px;
+}
+
+label{
+    font-size:15px;
+    width:inherit;
+    font-weight:600;
+    display:block;
+}
+
+input {
+    font-size: 25px;
+    justify-self: center;
+    align-self: center;
+    width:100%;
+    margin-bottom:1%;
+    display:block;
+}
+
+#address {
+    font-size: 25px;
+    justify-self: center;
+    align-self: center;
+    width: 100%;
+    margin-bottom: 1%;
+}
+
+.form {
+    height: inherit;
+    width: inherit;
+    box-sizing:border-box;
+    padding-top:20px;
+    padding-left:25px;
+    
+}
+
+.form>div{
+    width:100%;
+   
+}
+
+.form>div>div{
+    width:40%;
+}
+
+#update-button {
+    position: relative;
+    background-color: darkgreen;
+    color: white;
+    font-size: 20px;
+    width: 17%;
+    height: 10%;
+    float: right;
+    left: 15%;
+    display: none;
+}
+
+#add-button {
+    position:relative;
+    background-color: darkgreen;
+    color: white;
+    font-size: 20px;
+    width: 17%;
+    height:10%;
+    float: right;
+    left: 15%;
+    display:none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: forestgreen;
+}
+
+.active {
+    background-color: red;
+}
+
+.contact {
+    box-shadow: 0px 0px 0px 1px #0000007d;
+    height:25%;
+    widows:inherit;
+}
+
+.divname {
+    margin-left: 20px;
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+.divphone {
+    color: grey;
+    font-size: 15px;
+    margin-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:200;
+}
+
+.divemail {
+    color: grey;
+    font-size: 15px;
+    margin-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200;
+}
+
+#showdata {
+    width: 20%;
+    margin-left: 10%;
+    float:left;
+}
+
+#options{
+    height:80%;
+    margin-left:4%;
+    margin-top:1%;
+    float:left;
+}
+
+#username{
+    font-size:45px;
+}
+
+span.A , span.B{
+    display:table-cell;
+}
+
+.img{
+    height:20px;
+    width:20px;
+}

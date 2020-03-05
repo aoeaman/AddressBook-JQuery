@@ -1,0 +1,101 @@
+<html>
+<head>
+    <title>Jquery practice</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="service.js"></script>
+    <script src="main.js"></script>
+    <script src="User.js"></script>
+    <script src="Validation.js"></script>
+</head>
+<body>
+    <div id="header">
+        <span id="title">Address Book</span>
+    </div>
+
+    <div id="navbar">
+        <ul>
+            <li><a id="a1" href="javascript:void(0);">Home</a> </li>
+            <li > <a id="a2" href="javascript:void(0);">+Add</a></li>
+        </ul>
+
+        <div id="Bing-Icon">
+            <a onclick="jsfunction()" href="javascript:void(0);"><img src="bing.png" /></a>
+        </div>
+
+    </div>
+
+    <div id="container">
+        <div id="col-30" onload="GetContacts">
+            <div id="d1">
+                <p id="p1">Contacts</p>
+            </div>
+            <div id="contactpanel">
+
+            </div>
+        </div>
+
+        <div id="col-70">
+
+            <div id="homepage">
+                <h1>Weclome to Address Book</h1>
+            </div>
+
+            <div id="info">
+
+                <div id="showdata">
+                    <div id="username"></div>
+                    <br />
+                    <div><span> Email: </span><span id="usermailid"></span> </div>
+                    <br />
+                    <div><span> Mobile: </span><span id="usermobile"></span></div>
+                    <div><span>Landline: </span> <span id="userlandline"></span></div> <br />
+                    <div><span>Website:</span><span id="userwebsite"></span></div> <br />
+                    <div><span class="A">Address:</span> <span class="B" id="useraddress"></span></div>
+                </div>
+
+                <div id="options">
+                    <a id="edit" href="javascript:void(0);"><img class="img" src="edit1.jpg" /> Edit</a>
+                    <a id="delete" href="javascript:void(0);"><img class="img" src="delete1.png" /> Delete</a>
+                </div>
+
+            </div>
+
+            <div id="add">
+                <form class="form" name="form1" action="">
+                    <div>
+                        <label for="name">Name *</label>
+                        <input type="text" name="name" id="enteredname" />
+                    </div>
+
+                    <div>
+                        <label for="email">Email *</label>
+                        <input type="text" name="email" id="email" />
+                    </div>
+                    <div>
+                        <div style="width:40%">
+                            <label for="mobile">Mobile *</label>
+                            <input type="text" name="mobile" id="mobile" maxlength="14"/>
+                        </div>
+                        <div style="float:right">
+                            <label for="landline">Landline</label>
+                            <input type="text" name="landline" id="landline" />
+                        </div>
+
+                    </div>
+                    <div>
+                        <label for="website">Website</label>
+                        <input type="text" name="website" id="website" />
+                    </div>
+                    <div>
+                        <label for="address">Address</label>
+                        <textarea id="address" name="address" rows="3"></textarea>
+                    </div>
+                    <button type="button" id="add-button"> Add </button>
+                    <button type="button" id="update-button"> Update </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
